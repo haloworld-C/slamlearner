@@ -13,7 +13,14 @@ docker pull guangaltman/slam:ubuntu1804
 git clone git@github.com:haloworld-C/slamlearner.git
 ```
 3.尝试在docker中运行代码
-
+- 首先运行start_slam.sh启动第一步拉取的docker 
+```bash
+./start_slam.sh
+```
+- 然后运行into_slam.sh进入刚才启动的docker
+```bash
+./into_slam.sh
+```
 > 本环境的目标是运行高翔老师的SLAM课程（深蓝课程及十四讲内容），相关库已经预装。
 > 如有需要可以在此基础上扩展。
 > by halo
