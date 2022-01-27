@@ -23,4 +23,6 @@ git clone git@github.com:haloworld-C/slamlearner.git
 ```
 > 本环境的目标是运行高翔老师的SLAM课程（深蓝课程及十四讲内容），相关库已经预装。
 > 如有需要可以在此基础上扩展。
+> docker中如需密码：root用户密码为1, slamlearner用户密码为2
+
 > by halo
