@@ -1,7 +1,7 @@
 #!/bin/bash
 VERSION="ubuntu1804-slam"
 
-CURRENT_FILE_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+CURRENT_FILE_PATH=$(dirname "$PWD")
 
 docker run -it \
     -d \
