@@ -2,7 +2,7 @@
 a slam_learning environment and examples 
 
 ## 使用说明
-docker_hub名称：guanaltman/slam:ubuntu1804
+docker_hub名称：guangaltman/slam:ubuntu1804
 1. 镜像拉取到本地：
 ```bash
 docker pull guangaltman/slam:ubuntu1804
